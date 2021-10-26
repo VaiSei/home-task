@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_page3.css">
+    <title>Custom</title>
+</head>
+<body>
+    <div class="brand">
+        <h2 class=" text text-main">Выберите тип кузова</h2>
+        <select>
+            <option class="text" value="default">Седан</option>
+            <option class="text" value="1dVariant">Хэтчбек</option>
+            <option class="text" value="2dVariant">Кроссовер</option>
+            <option class="text" value="1dVariant">Купе</option>
+            <option class="text" value="2dVariant">Минивены</option>
+            <option class="text" value="1dVariant">Пикапы</option>
+            <option class="text" value="2dVariant">Кабриолеты</option>
+        </select>
+        <h2 class="text text-main">Выберите марку</h2>
+        <select>
+            <option class="text" value="default">Audi</option>
+            <option class="text" value="1dVariant">Bentley</option>
+            <option class="text" value="2dVariant">BMW</option>
+            <option class="text" value="1dVariant">Dodge</option>
+            <option class="text" value="2dVariant">Ferrari</option>
+            <option class="text" value="1dVariant">Ford</option>
+            <option class="text" value="2dVariant">Subaru</option>
+        </select>
+    </div>
+    <div class="country">
+        <h2 class="text text-main">Выберите страну производителя</h2>
+        <img class="photo" src="../img/ford.jpg" alt="">
+        <div class="land">
+            <div class="block-check ">
+                <input type="checkbox" name="status" id="on">
+                <label  for="on" class="text">Америка</label>
+            </div>
+            <div class="block-check">
+                <input type="checkbox" name="status" id="onn">
+                <label  for="onn" class="text">Италия</label>
+            </div>
+            <div class="block-check">
+                <input type="checkbox" name="status" id="onnn">
+                <label  for="onnn" class="text">Корея</label>
+            </div>
+            <div class="block-check">
+                <input type="checkbox" name="status" id="onnnn">
+                <label  for="onnnn" class="text">Германия</label>
+            </div>
+            
+    </div>
+    </div>
+    <div class="condition">
+        <h2 class="text text-main">Состояние</h2>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="op">
+            <label  for="op" class="text">Битая</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="od">
+            <label  for="od" class="text">В кредите</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="oj">
+            <label  for="oj" class="text">Не растаможенная</label>
+        </div>
+        
+    </div>
+    <div class="produced">
+        <h2 class="text text-main">Год выпуска</h2>
+        
+        <h3 class="text block-3">от</h3>
+        <input type="text" class="text block-3" minlength="4" maxlength="4" placeholder="1999">
+        <h3 class="text block-3">до</h3>
+        <input type="text" class="text block-3" minlength="4" maxlength="4" placeholder="2021">
+    </div>
+    <div class="price">
+        <h2 class="text text-main">Цена</h2>
+        <h3 class="text block-3">от</h3>
+        <input type="text" class="text block-3" placeholder="0 грн.">
+        <h3 class="text block-3">до</h3>
+        <input type="text" class="text block-3" placeholder="стА тыщ миллионов">
+    </div>
+    <input type="color">
+    <div class="fuel">
+        <h2 class="text text-main">Топливо</h2>
+        <div class="block-1">
+            <input type="radio" name="var1" id="variant1" checked>
+            <label for="variant1" class="text">Бензин</label>
+         </div>
+         <div class="block-1">
+            <input type="radio" name="var1" id="variant0" >
+            <label for="variant0" class="text">Газ</label>
+         </div>
+         <div class="block-1">
+            <input type="radio" name="var1" id="variant2" >
+            <label for="variant2" class="text">Гибрид</label>
+         </div>
+         <div class="block-1">
+            <input type="radio" name="var1" id="variant3" >
+            <label for="variant3" class="text">Дизель</label>
+         </div>
+         <div class="block-1">
+            <input type="radio" name="var1" id="variant4" >
+            <label for="variant4" class="text">Электро</label>
+         </div>
+
+    </div>
+    <div class="iterior">
+        <h2 class="text text-main">Салон</h2>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="ol">
+            <label  for="ol" class="text">Велюр</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="os">
+            <label  for="os" class="text">Алькантара</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="oq">
+            <label  for="oq" class="text">Натуральная кожа</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="oz">
+            <label  for="oz" class="text">Исскуственная кожа</label>
+        </div>
+    </div>
+    <div class="transmission">
+        <h2 class="text text-main">Коробка передач</h2>
+        <div class="block-6">
+            <input type="radio" name="var2" id="variant5" checked>
+            <label class="text" for="variant5">Автомат</label>
+         </div>
+         <div class="block-6">
+            <input type="radio" name="var2" id="variant6" >
+            <label class="text" for="variant6">Механика</label>
+         </div>
+    </div>
+    <div class="comfort">
+        <h2 class="text text-main">Комфорт</h2>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="ow">
+            <label  for="ow" class="text">Люк</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="oww">
+            <label  for="oww" class="text">Круиз-контроль</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="oee">
+            <label  for="oee" class="text">Панорамная крыша</label>
+        </div>
+        <div class="block-check">
+            <input type="checkbox" name="status" id="oe">
+            <label  for="oe" class="text">Автозапуск двигателя</label>
+        </div>
+    </div>
+    <button class="knob"> Найти </button>
+
+
+   
+
+
+
+    <footer></footer>
+</body>
+</html>
+    
